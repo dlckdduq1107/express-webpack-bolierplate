@@ -11,6 +11,13 @@
         IDE : VSCode
         CSS : SASS
         Deployment : nCloud
+        teplate engine : X
+        css : scss
+
+
+## 프로젝트 생성
+
+        express --no-view -C=sass --git airbnb : 템플릿 엔진 없이 css는 sass로 .gitignore만든다.
 
 ## branch 활용계획
 
@@ -43,6 +50,7 @@
 
         day1
             - 프로젝트 계획수립 및 용어 학습
+            - issue,label,milestone 생성
         day2
             - Express 프로젝트 생성
             - webpack, babel설정, scss|sass 설정
