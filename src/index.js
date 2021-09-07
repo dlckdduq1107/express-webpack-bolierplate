@@ -1,4 +1,4 @@
-import '../base.scss';
+import './base.scss';
 
 function component() {
     var element = document.createElement('div');
