@@ -30,6 +30,10 @@ module.exports = {
 
     ]
   },
+  devServer: {
+    contentBase: "./dist",
+    overlay: true // 오류내용을 화면에 보여주게 함.
+  },
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
